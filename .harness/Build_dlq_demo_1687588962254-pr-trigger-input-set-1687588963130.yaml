@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dlq_demo_1687588962254-pr-trigger-input-set
+  identifier: Build_dlq_demo_1687588962254prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dlq_demo_1687588962254
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
